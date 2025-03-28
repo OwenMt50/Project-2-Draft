@@ -1,6 +1,6 @@
 //Created by Owen Martin
 //Date: 3/27/25
-//Description: Don't know yet, please wait.
+//Description: Draft of Project #2, will finish this description in final
 
 #include <iostream>
 #include <cmath>
@@ -37,10 +37,10 @@ int main(){
     cin>>mine;
     possibility(vertical, horizontal); //call for if function
 
-    if (vertical<horizontal){ //if statement to output either ending, will be expanded in final with good ending modulo tied into one of endings
-        cout<<"Strike it rich ending.";
-    }else if(vertical>horizontal){
-        cout<<"Bad ending.";
+    if (vertical<horizontal){ //if statement that determines ending from input of int main, and possibility function
+        cout<<"Strike it rich ending."; //good ending, modulo showing how much time you mined will be added to this, time mined will be pre-determined
+    }else if(vertical>horizontal){ 
+        cout<<"Bad ending."; //bankrupt ending
     }
 
 }
