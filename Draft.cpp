@@ -23,7 +23,6 @@ int main(){
 
     int acres = 0;
     int price = 750;
-    int modulo = modulo;
     float mine = 0;
     string vertical = "vertical mine";
     string horizontal = "strip mine";
