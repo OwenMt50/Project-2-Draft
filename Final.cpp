@@ -10,6 +10,9 @@ using namespace std;
 int acres = 0;
 int price = 750;
 
+string vertical = "vertical mine";
+string strip = "strip mine";
+
     int multiply(int acres, int price){ //multiply function for bad ending
         return acres*price;
     }
@@ -38,9 +41,8 @@ int price = 750;
     }
 
 int main(){
-    
-    string vertical = "vertical mine";
-    string strip = "strip mine";
+
+    float mine = 0;
 
     cout<<"You have just bought a plot of land that has been rumored to be hiding gold.\n"; //start of adventure
     cout<<"Alone with your pickaxe, and sheer determination to strike it rich, will you find this supposed gold in your newly acquired land?\n";
